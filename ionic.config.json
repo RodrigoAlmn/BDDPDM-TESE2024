@@ -1,0 +1,7 @@
+{
+  "name": "TESEPRY",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
