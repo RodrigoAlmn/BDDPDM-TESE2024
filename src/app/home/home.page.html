@@ -57,7 +57,14 @@
       </ion-grid>
     </ion-item>
     <ion-item>
-        <ion-button color="success" >Continuar</ion-button>
+        <ion-button id="present-alert" color="success" >Continuar</ion-button>
+      <ion-alert
+  trigger="present-alert"
+  header="Proyecto Agregado"
+  [buttons]="alertButtons"
+></ion-alert>
+
+
       </ion-item>
     
     
