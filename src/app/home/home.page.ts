@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  alertButtons = ['Action'];
   startDate = {
     day: new Date().getDate(),
     month: new Date().getMonth(),
