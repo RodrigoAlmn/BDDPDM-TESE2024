@@ -1,0 +1,34 @@
+<app-encabezado></app-encabezado>
+<ion-content class="content">
+  <div class="content-wrapper">
+    <ion-grid class="container">
+      <ion-row>
+        <ion-col size="6" class="column-left">
+          <div class="form-container">
+            <p>Buscar por:</p>
+            <ion-item class="form-item">
+              <ion-label position="floating">Nombre del Proyecto</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item class="form-item">
+              <ion-label position="floating">Fecha del Proyecto</ion-label>
+              <ion-input type="date"></ion-input>
+            </ion-item>
+            <ion-item class="form-item">
+              <ion-label position="floating">Lider del Proyecto</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-button expand="block" color="primary" class="contrast-button">Consultar</ion-button>
+          </div>
+        </ion-col>
+        <ion-col size="6" class="image-container">
+          <img src="assets/curri.png">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+ 
+<ion-footer>
+  <app-pie></app-pie>
+</ion-footer>
